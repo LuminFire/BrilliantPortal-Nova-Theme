@@ -22,7 +22,8 @@
     font-weight: initial !important;
 }
 
-.font-bold {
+.font-bold,
+a.router-link-active {
     font-weight: 700 !important;
 }
 
@@ -40,4 +41,9 @@
     fill: white;
     font-family: 'Lato';
     font-weight: 400;
+}
+
+.logo.telescope,
+.logo.horizon {
+    width: 16px;
 }
