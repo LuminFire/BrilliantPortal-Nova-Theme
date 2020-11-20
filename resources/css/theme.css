@@ -13,3 +13,19 @@
     background-image: linear-gradient(0deg, #7e8ea1 0%, #3c4655 100%);
     background-attachment: fixed;
 }
+
+.w-sidebar svg {
+    width: 100%;
+}
+
+.w-sidebar .brilliantportal .blue {
+    fill: white;
+}
+
+.w-sidebar .brilliantportal .text {
+    color: white;
+    font-size: 900px;
+    fill: white;
+    font-family: 'Lato';
+    font-weight: 400;
+}
