@@ -14,6 +14,18 @@
     background-attachment: fixed;
 }
 
+.font-sans {
+    font-family: Lato, system-ui, BlinkMacSystemFont, -apple-system, sans-serif !important;
+}
+
+.table td {
+    font-weight: initial !important;
+}
+
+.font-bold {
+    font-weight: 700 !important;
+}
+
 .brilliantportal-logo {
     width: 100%;
 }
