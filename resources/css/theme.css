@@ -14,15 +14,15 @@
     background-attachment: fixed;
 }
 
-.w-sidebar svg {
+.brilliantportal-logo {
     width: 100%;
 }
 
-.w-sidebar .brilliantportal .blue {
+.brilliantportal-logo .blue {
     fill: white;
 }
 
-.w-sidebar .brilliantportal .text {
+.brilliantportal-logo .text {
     color: white;
     font-size: 900px;
     fill: white;
