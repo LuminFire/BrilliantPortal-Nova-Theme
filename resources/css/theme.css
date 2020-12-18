@@ -47,3 +47,7 @@ a.router-link-active {
 .logo.horizon {
     width: 16px;
 }
+
+.documentation-content {
+    line-height: 1.4;
+}
