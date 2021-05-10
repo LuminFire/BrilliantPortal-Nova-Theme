@@ -1,6 +1,6 @@
 <?php
 
-namespace BrilliantPackages\BrilliantPortalNovaTheme;
+namespace BrilliantPortal\NovaTheme;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
@@ -16,11 +16,11 @@ class ThemeServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::theme(asset('/brilliant-packages/brilliant-portal-nova-theme/theme.css'));
+            Nova::theme(asset('/brilliant-portal/nova-theme/theme.css'));
         });
 
         $this->publishes([
-            __DIR__.'/../resources/css' => public_path('brilliant-packages/brilliant-portal-nova-theme'),
+            __DIR__.'/../resources/css' => public_path('brilliant-portal/nova-theme'),
         ], 'public');
     }
 

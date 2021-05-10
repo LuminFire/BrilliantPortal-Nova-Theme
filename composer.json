@@ -1,5 +1,5 @@
 {
-    "name": "brilliant-packages/brilliantportal-nova-theme",
+    "name": "brilliant-portal/nova-theme",
     "description": "A Laravel Nova theme.",
     "keywords": [
         "laravel",
@@ -11,18 +11,21 @@
     },
     "autoload": {
         "psr-4": {
-            "BrilliantPackages\\BrilliantPortalNovaTheme\\": "src/"
+            "BrilliantPortal\\NovaTheme\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "BrilliantPackages\\BrilliantPortalNovaTheme\\ThemeServiceProvider"
+                "BrilliantPortal\\NovaTheme\\ThemeServiceProvider"
             ]
         }
     },
     "config": {
         "sort-packages": true
+    },
+    "replace": {
+        "brilliantportal/brilliantportal-nova-theme": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
