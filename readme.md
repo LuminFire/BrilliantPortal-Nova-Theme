@@ -7,5 +7,5 @@ Custom Nova theme for BrilliantPortal.
 ```shell
 composer require brilliant-portal/nova-theme
 
-php artisan vendor:publish --provider="BrilliantPackages\BrilliantPortalNovaTheme\ThemeServiceProvider" --tag=public
+php artisan vendor:publish --provider="BrilliantPortal\NovaTheme\ThemeServiceProvider" --tag=public
 ```
